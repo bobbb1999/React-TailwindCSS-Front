@@ -57,11 +57,13 @@ function Nav() {
           <div className="flex lg:flex-1">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+
+              <h1 className="h-8 w-auto text-4xl">📸</h1>
+              {/* <img
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
-              />
+              /> */}
             </Link>
           </div>
           <div className="flex lg:hidden">
@@ -134,6 +136,14 @@ function Nav() {
                   >
                     Log in
                   </Link>
+                </div>
+                <div className='py-10'>
+                  <button
+                      onClick={handleThemeSwitch}
+                      className='p-3  text-black rounded-full w-12 h-6 flex justify-center items-center'
+                  >
+                      {theme === 'light' ? <BsMoonFill /> : <BsFillSunFill />}
+                  </button>
                 </div>
               </div>
             </div>
