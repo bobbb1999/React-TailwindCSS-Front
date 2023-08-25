@@ -4,7 +4,10 @@ import './index.css'
 import { createBrowserRouter,  RouterProvider } from "react-router-dom";
 import Home from './Pages/Home.jsx';
 import Login from './Pages/Login';
-import Register from './Pages/Register';
+import Register from './Pages/Register'
+import RegisterUser from './pages/RegisterUser'
+import RegisterPhoto from './Pages/RegisterPhoto'
+import RegisterforRent from './Pages/RegisterforRent'
 import Term from './Pages/Term';
 
 
@@ -38,6 +41,18 @@ const router = createBrowserRouter([
   {
     path: "Term_of_service",
     element: <Term />
+  },
+  {
+    path: "RegisterForUser",
+    element: <RegisterUser />
+  },
+  {
+    path: "RegisterForPhoto",
+    element: <RegisterPhoto />
+  },
+  {
+    path: "RegisterForRent",
+    element: <RegisterforRent />
   },
 ])
 

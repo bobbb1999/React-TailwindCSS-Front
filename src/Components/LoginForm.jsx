@@ -29,7 +29,7 @@ export default function LoginForm() {
                         </a>
 
                         <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl dark:text-white">
-                            Welcome to Squid 🦑
+                            Welcome to EasyPhoto 🦑
                         </h2>
 
                         <p className="mt-4 leading-relaxed text-white/90 dark:text-white">
@@ -61,7 +61,7 @@ export default function LoginForm() {
                             </a>
 
                             <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl dark:text-white">
-                                Welcome to Squid 🦑
+                                Welcome to EasyPhoto 🦑
                             </h1>
 
                             <p className="mt-4 leading-relaxed text-gray-500 dark:text-white">
@@ -86,7 +86,7 @@ export default function LoginForm() {
                                 </a>
                             </p>
                         </div>
-                        <form action="#" className="mt-8 grid grid-cols-6 gap-6">
+                        <form action="#" className="mt-8 grid gap-6">
                             <div className="relative col-span-6">
                                 <p className="absolute left-4 top-2 dark:text-white/40 text-[10px]">
                                     Email / อีเมล
@@ -116,7 +116,7 @@ export default function LoginForm() {
                             <a href="/" className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password ?</a>
                             </div>
                             <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
-                                <button type="submit" className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
+                                <button type="submit" className="inline-block shrink-0 rounded-md border border-black bg-black px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-blue-500 dark:inline-block shrink-0 rounded-md border dark:border-white dark:bg-white px-12 py-3 text-sm font-medium dark:text-black transition dark:hover:bg-transparent dark:hover:text-white focus:outline-none focus:ring active:text-blue-500">
                                     เข้าสู่ระบบ
                                 </button>
                             </div>
