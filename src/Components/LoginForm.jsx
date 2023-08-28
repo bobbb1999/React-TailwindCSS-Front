@@ -76,7 +76,7 @@ export default function LoginForm() {
                             <p className="text-black mb-2 dark:text-white">
                                 มาเริ่มต้นสัมผัสประสบการณ์ใหม่ไปกับเราสิ
                             </p>
-                            <p className="text-[10px] text-black/40 dark:text-white/40">
+                            <p className="text-[10px] text-black/40 dark:text-white/60">
                                 หรือยังไม่มีบัญชีเลย ?	&#8196;
                                 <a
                                     className="text-black underline underline-offset-1 dark:text-white"
@@ -88,7 +88,7 @@ export default function LoginForm() {
                         </div>
                         <form action="#" className="mt-8 grid gap-6">
                             <div className="relative col-span-6">
-                                <p className="absolute left-4 top-2 dark:text-white/40 text-[10px]">
+                                <p className="absolute left-4 top-2 dark:text-white/60 text-[10px]">
                                     Email / อีเมล
                                 </p>
                                 <input
@@ -101,7 +101,7 @@ export default function LoginForm() {
 
                             </div>
                             <div className="relative col-span-6">
-                                <p className="absolute left-4 top-2 dark:text-white/40 text-[10px]">
+                                <p className="absolute left-4 top-2 dark:text-white/60 text-[10px]">
                                     Password / รหัสผ่าน
                                 </p>
                                 <input

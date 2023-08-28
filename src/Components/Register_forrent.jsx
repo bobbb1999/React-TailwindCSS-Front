@@ -28,7 +28,7 @@ function Register_forrent() {
             </a>
 
             <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl dark:text-white">
-              Welcome to Photography 📸
+              Welcome to EasyPhoto 📸
             </h2>
 
             <p className="mt-4 leading-relaxed text-white/90 dark:text-white">
@@ -73,9 +73,9 @@ function Register_forrent() {
                 Register
               </h1>
               <p className="text-black mb-2 dark:text-white">
-                มาเริ่มต้นสัมผัสประสบการณ์ใหม่ไปกับเราสิ
+                สมัครสมาชิกสำหรับผู้ให้เช่าอุปกรณ์
               </p>
-              <p className="text-[10px] text-black/40 dark:text-white/40">
+              <p className="text-[10px] text-black/40 dark:text-white/50">
                 หรือมีบัญชีอยู่แล้ว ?ㅤ
                 <a
                   className="text-black underline underline-offset-1 dark:text-white"
@@ -87,7 +87,7 @@ function Register_forrent() {
             </div>
             <form action="#" className="mt-8 grid grid-cols-6 gap-6">
               <div className="relative col-span-6 sm:col-span-3">
-                <p className="absolute left-4 top-2 dark:text-white/40 text-[10px]">
+                <p className="absolute left-4 top-2 dark:text-white/60 text-[10px]">
                 Firstname / ชื่อจริง
                 </p>
                 <input
@@ -101,7 +101,7 @@ function Register_forrent() {
               </div>
 
               <div className="relative col-span-6 sm:col-span-3">
-              <p className="absolute left-4 top-2 dark:text-white/40 text-[10px]">
+              <p className="absolute left-4 top-2 dark:text-white/60 text-[10px]">
                 Lastname / นามสกุล
                 </p>
                 <input
@@ -115,7 +115,7 @@ function Register_forrent() {
               </div>
 
               <div className="relative col-span-6">
-              <p className="absolute left-4 top-2 dark:text-white/40 text-[10px]">
+              <p className="absolute left-4 top-2 dark:text-white/60 text-[10px]">
                 Email / อีเมล
                 </p>
                 <input
@@ -129,7 +129,7 @@ function Register_forrent() {
               </div>
 
               <div className="relative col-span-6 sm:col-span-3">
-              <p className="absolute left-4 top-2 dark:text-white/40 text-[10px]">
+              <p className="absolute left-4 top-2 dark:text-white/60 text-[10px]">
                 Password / รหัสผ่าน
                 </p>
                 <input
@@ -143,7 +143,7 @@ function Register_forrent() {
               </div>
 
               <div className="relative col-span-6 sm:col-span-3">
-              <p className="absolute left-4 top-2 dark:text-white/40 text-[10px]">
+              <p className="absolute left-4 top-2 dark:text-white/60 text-[10px]">
                 Confirm Password / ยืนยันรหัสผ่าน
                 </p>
                 <input
@@ -165,7 +165,7 @@ function Register_forrent() {
                     className="h-5 w-5 rounded-md border-gray-200 bg-white shadow-sm"
                   />
 
-                  <span className="text-sm text-gray-700 dark:text-white/40 ">
+                  <span className="text-sm text-gray-700 dark:text-white/60 ">
                     I want to receive emails about events, product updates and
                     company announcements.
                   </span>
@@ -173,7 +173,7 @@ function Register_forrent() {
               </div>
 
               <div className="col-span-6">
-                <p className="text-sm text-gray-500 dark:text-white/40">
+                <p className="text-sm text-gray-500 dark:text-white/60">
                   เมื่อคุณกดดำเนินการต่อ <br></br>
                   <a>ถือว่าคุณได้อ่านและยอมรับใน</a>
                   <a

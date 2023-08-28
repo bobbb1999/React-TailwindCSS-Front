@@ -76,7 +76,7 @@ function RegisterChoose() {
                             <p className="text-black mb-2 dark:text-white">
                                 มาเริ่มต้นสัมผัสประสบการณ์ใหม่ไปกับเราสิ
                             </p>
-                            <p className="text-[10px] text-black/40 dark:text-white/40">
+                            <p className="text-[10px] text-black/40 dark:text-white/60">
                                 หรือมีบัญชีอยู่แล้ว ? &#8196;
                                 <a
                                     className="text-black underline underline-offset-1 dark:text-white"
