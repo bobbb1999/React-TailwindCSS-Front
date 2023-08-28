@@ -113,7 +113,7 @@ export default function LoginForm() {
                                 />
                             </div>
                             <div className="col-span-6">
-                            <a href="/" className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password ?</a>
+                            <a href="/ForgotPassword" className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password ?</a>
                             </div>
                             <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
                                 <button type="submit" className="inline-block shrink-0 rounded-md border border-black bg-black px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-blue-500 dark:inline-block shrink-0 rounded-md border dark:border-white dark:bg-white px-12 py-3 text-sm font-medium dark:text-black transition dark:hover:bg-transparent dark:hover:text-white focus:outline-none focus:ring active:text-blue-500">

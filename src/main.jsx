@@ -9,8 +9,8 @@ import RegisterUser from './pages/RegisterUser'
 import RegisterPhoto from './Pages/RegisterPhoto'
 import RegisterforRent from './Pages/RegisterforRent'
 import Term from './Pages/Term';
-
-
+import ForgotPW from './Pages/ForgotPW';
+import ResetPW from './Pages/ResetPW';
 
 
 const router = createBrowserRouter([
@@ -53,6 +53,14 @@ const router = createBrowserRouter([
   {
     path: "RegisterForRent",
     element: <RegisterforRent />
+  },
+  {
+    path: "/ResetPassword",
+    element: <ResetPW />
+  },
+  {
+    path: "/ForgotPassword",
+    element: <ForgotPW />
   },
 ])
 
