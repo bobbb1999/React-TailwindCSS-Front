@@ -8,8 +8,8 @@ export default function LoginForm() {
                 <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
                     <img
                         alt="Night"
-                        src="https://i.pinimg.com/564x/cf/5a/9e/cf5a9e174060e7798103f013cb5d827a.jpg"
-                        className="absolute inset-0 h-full w-full object-cover opacity-80"
+                        src="https://source.unsplash.com/random?s/photos/camera-lens"
+                        className="absolute inset-0 h-full w-full object-cover"
                     />
 
                     <div className="hidden lg:relative lg:block lg:p-12">
