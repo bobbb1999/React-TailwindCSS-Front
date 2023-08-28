@@ -157,7 +157,7 @@ function Register_user() {
               </div>
 
               <div className="col-span-6">
-                <label for="MarketingAccept" className="flex gap-4">
+                <label htmlFor="MarketingAccept" className="flex gap-4">
                   <input
                     type="checkbox"
                     id="MarketingAccept"
